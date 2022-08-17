@@ -6,8 +6,7 @@ namespace App3
 {
     internal class AccelerometerDataTransmitter
     {
-
-        public float XValue { get; set; }
-        public float YValue { get; set; }
+        public float XValue { get; set; } = 0.0001f;
+        public float YValue { get; set; } = 0.0001f;
     }
 }
